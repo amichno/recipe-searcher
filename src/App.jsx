@@ -8,7 +8,7 @@ import { AboutPage } from "./pages/AboutPage";
 
 export default function App() {
   return (
-    <div className="font-sans bg-stone-100 min-h-screen flex flex-col">
+    <div className="font-sans bg-[#f6f5f1] min-h-screen flex flex-col">
       <Nav />
       <main className="flex-1">
         <Routes>
