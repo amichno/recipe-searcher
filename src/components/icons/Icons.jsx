@@ -30,6 +30,25 @@ export function BowlIcon({ className = "w-4 h-4" }) {
   );
 }
 
+export function PersonIcon({ className = "w-4 h-4" }) {
+  return (
+    <svg className={className} viewBox="0 0 24 24" fill="none">
+      <circle cx="12" cy="8" r="3.2" stroke="#8A8672" strokeWidth="1.6" />
+      <path d="M5.5 20c1-3.5 4-5.5 6.5-5.5s5.5 2 6.5 5.5" stroke="#8A8672" strokeWidth="1.6" strokeLinecap="round" />
+    </svg>
+  );
+}
+
+export function PotIcon({ className = "w-4 h-4" }) {
+  return (
+    <svg className={className} viewBox="0 0 24 24" fill="none">
+      <path d="M4 11h16v3a5 5 0 01-5 5h-6a5 5 0 01-5-5v-3z" stroke="#8A8672" strokeWidth="1.6" strokeLinejoin="round" />
+      <path d="M2 11h20" stroke="#8A8672" strokeWidth="1.6" strokeLinecap="round" />
+      <path d="M2 8.5c1-1.2 2-1.2 3 0M9.5 8.5c1-1.2 2-1.2 3 0M17 8.5c1-1.2 2-1.2 3 0" stroke="#8A8672" strokeWidth="1.4" strokeLinecap="round" />
+    </svg>
+  );
+}
+
 export function SearchIcon({ className = "w-[18px] h-[18px]" }) {
   return (
     <svg className={className} viewBox="0 0 24 24" fill="none">

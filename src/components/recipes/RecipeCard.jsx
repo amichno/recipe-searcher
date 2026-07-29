@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { BowlIcon, ClockIcon } from "../icons/Icons";
+import { PersonIcon, ClockIcon, PotIcon } from "../icons/Icons";
 
 export function RecipeCard({ recipe }) {
   return (
@@ -11,19 +11,19 @@ export function RecipeCard({ recipe }) {
 
         <div className="flex flex-wrap items-center gap-x-3 gap-y-1 text-xs text-stone-500">
           <span className="flex items-center gap-1">
-            <BowlIcon className="w-3.5 h-3.5" /> Servings: {recipe.servings}
+            <PersonIcon className="w-3.5 h-3.5" /> Servings: {recipe.servings}
           </span>
           <span className="flex items-center gap-1">
             <ClockIcon className="w-3.5 h-3.5" /> Prep: {recipe.prepTime}min
           </span>
           <span className="flex items-center gap-1">
-            <ClockIcon className="w-3.5 h-3.5" /> Cook: {recipe.cookTime}min
+            <PotIcon className="w-3.5 h-3.5" /> Cook: {recipe.cookTime}min
           </span>
         </div>
 
         <Link
           to={`/recipes/${recipe.id}`}
-          className="mt-1 text-center text-sm font-semibold bg-emerald-950 text-stone-100 py-2 rounded-lg hover:bg-emerald-900"
+          className="mt-1 text-center text-sm font-semibold bg-emerald-950 text-stone-100 py-2 rounded-full hover:bg-emerald-900"
         >
           View recipe
         </Link>
