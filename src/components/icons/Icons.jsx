@@ -72,29 +72,29 @@ export function BackIcon({ className = "w-[18px] h-[18px]" }) {
   );
 }
 
-export function UtensilsIcon({ className = "w-5 h-5" }) {
+export function UtensilsIcon({ className = "w-5 h-5", color = "#C9663F" }) {
   return (
     <svg className={className} viewBox="0 0 24 24" fill="none">
-      <path d="M6 3v8M4 3v5a2 2 0 004 0V3M6 11v10" stroke="#C9663F" strokeWidth="1.6" strokeLinecap="round" />
-      <path d="M17 3c-2 0-3 2-3 5s1 4 3 4v9" stroke="#C9663F" strokeWidth="1.6" strokeLinecap="round" />
+      <path d="M6 3v8M4 3v5a2 2 0 004 0V3M6 11v10" stroke={color} strokeWidth="1.6" strokeLinecap="round" />
+      <path d="M17 3c-2 0-3 2-3 5s1 4 3 4v9" stroke={color} strokeWidth="1.6" strokeLinecap="round" />
     </svg>
   );
 }
 
-export function BoltIcon({ className = "w-5 h-5" }) {
+export function BoltIcon({ className = "w-5 h-5", color = "#C9663F" }) {
   return (
     <svg className={className} viewBox="0 0 24 24" fill="none">
-      <path d="M13 3L5 14h6l-1 7 8-11h-6l1-7z" stroke="#C9663F" strokeWidth="1.6" strokeLinejoin="round" />
+      <path d="M13 3L5 14h6l-1 7 8-11h-6l1-7z" stroke={color} strokeWidth="1.6" strokeLinejoin="round" />
     </svg>
   );
 }
 
-export function SearchListIcon({ className = "w-5 h-5" }) {
+export function SearchListIcon({ className = "w-5 h-5", color = "#C9663F" }) {
   return (
     <svg className={className} viewBox="0 0 24 24" fill="none">
-      <path d="M4 6h11M4 12h7" stroke="#C9663F" strokeWidth="1.6" strokeLinecap="round" />
-      <circle cx="16" cy="16" r="4" stroke="#C9663F" strokeWidth="1.6" />
-      <path d="M19 19l3 3" stroke="#C9663F" strokeWidth="1.6" strokeLinecap="round" />
+      <path d="M4 6h11M4 12h7" stroke={color} strokeWidth="1.6" strokeLinecap="round" />
+      <circle cx="16" cy="16" r="4" stroke={color} strokeWidth="1.6" />
+      <path d="M19 19l3 3" stroke={color} strokeWidth="1.6" strokeLinecap="round" />
     </svg>
   );
 }
