@@ -5,7 +5,7 @@ import KnifeIllustration from '../images/pattern-knife.svg';
 export function CtaBanner() {
   return (
     <section className='max-w-4xl mx-auto px-6 pb-14'>
-      <div className='relative bg-emerald-50 rounded-2xl py-12 px-6 text-center overflow-hidden'>
+      <div className='relative bg-[var(--neutral200)] py-12 px-6 text-center overflow-hidden'>
         <img
           src={ForkIllustration}
           className='   absolute
