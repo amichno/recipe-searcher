@@ -8,7 +8,7 @@ export function CtaBanner() {
       <div className='relative bg-[var(--neutral200)] py-12 px-6 text-center overflow-hidden'>
         <img
           src={ForkIllustration}
-          className='   absolute
+          className='hidden  sm:block  absolute
             left-[-18px] bottom-[-18px]
             w-auto h-[55%]
             opacity-70
@@ -18,7 +18,7 @@ export function CtaBanner() {
         />
         <img
           src={KnifeIllustration}
-          className='absolute
+          className='hidden absolute sm:block
             right-[-18px] top-[-18px]
             w-auto h-[55%]
             opacity-70
