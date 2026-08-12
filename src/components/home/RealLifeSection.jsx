@@ -1,3 +1,5 @@
+import BroccoliImage from '../images/image-home-real-life-large.webp';
+
 export function RealLifeSection() {
   return (
     <section className='max-w-4xl mx-auto px-6 py-14 grid grid-cols-1 border-t md:grid-cols-2 gap-10 items-center'>
@@ -16,7 +18,7 @@ export function RealLifeSection() {
         </p>
       </div>
       <img
-        src='https://picsum.photos/seed/chopping-vegetables/700/500'
+        src={BroccoliImage}
         alt='Dłonie kroją świeże warzywa na drewnianej desce'
         className='w-full h-64 object-cover rounded-2xl border border-stone-200'
       />

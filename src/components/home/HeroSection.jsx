@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 export function HeroSection() {
   return (
     <section className='text-center max-w-2xl mx-auto pt-14 pb-10 px-6'>
-      <h1 className='font-display font-semibold text-4xl md:text-5xl text-emerald-950 leading-tight mb-4'>
+      <h1 className='heading-primary'>
         <span className='relative inline-block'>
           <span className='bg-orange-200 absolute left-0 right-0 bottom-0 z-0 h-1/2 z-0 rounded-md px-2 py-0.5 inline-block'></span>
           <span className='relative z-10'>Healthy</span>
