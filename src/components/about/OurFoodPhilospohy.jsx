@@ -1,7 +1,7 @@
 import { useI18n } from '../../i18n/I18nContext';
 import ListView from '../../ui/listView';
 
-export function WhyWeExist() {
+export function OurFoodPhilospohy() {
   const { t } = useI18n();
 
   const whyWeExistList = [

@@ -1,5 +1,5 @@
 import ImageAbout from '../images/image-about-our-mission-large.webp';
-import { I18nProvider, useI18n } from '../../i18n/I18nContext';
+import { useI18n } from '../../i18n/I18nContext';
 
 export function AboutHeader() {
   const { t } = useI18n();
